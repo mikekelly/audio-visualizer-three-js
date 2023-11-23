@@ -42,7 +42,7 @@ function play() {
 
     var planeGeometry = new THREE.PlaneGeometry(800, 800, 20, 20);
     var planeMaterial = new THREE.MeshLambertMaterial({
-        color: 0x6904ce,
+        color: 0x262626,
         side: THREE.DoubleSide,
         wireframe: true
     });
@@ -59,7 +59,7 @@ function play() {
 
     var icosahedronGeometry = new THREE.IcosahedronGeometry(10, 4);
     var lambertMaterial = new THREE.MeshLambertMaterial({
-        color: 0xff00ee,
+        color: 0x404040,
         wireframe: true
     });
 
